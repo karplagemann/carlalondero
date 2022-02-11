@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+            <!-- link de fontawsome traido desde https://cdnjs.com/libraries/font-awesome -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- fin link de fontawsome traido desde https://cdnjs.com/libraries/font-awesome -->
+    <title>Carla Londero - Gestión en Agronegocios</title>
+</head>
+<body>
+    <main class="container5">
+        <header class="header">
+            <figure>
+                <a active href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </figure>
+            <nav class="navPrincipal">
+                <ul>
+                    <li><a  href=index.html>Inicio</a></li>
+                    <li><a href="acercade.html">Acerca de</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div id="pagContacto">
+        <h1>Contacto</h1>
+        <form action="#" method="post" enctype="application/x-www-form-urlencoded" class="formContacto">
+            <fieldset>
+                <legend>Charlemos!</legend>
+                <label for="nombre">Nombre</label>
+                <input class="inputContacto" name="nombre" type="text" placeholder="escribe tu nombre" required><br>
+                <label for="telefono">Telefono</label>
+                <input class="inputContacto" name="telefono" type="tel" placeholder="Ej 03541 15520474" required><br>
+                <label for="email">Email</label>
+                <input class="inputContacto" name="email" type="email" placeholder="escribe tu email" required><br>
+                <label for="servios">Motivo de consulta</label>
+                <select name="servicios">
+                    <option>Gestión Administrativa</option>
+                    <option>Gestión Comercial</option>
+                    <option>Auditorias de cuentas</option>
+                    <option>Proyectos y presupuestos de inversón</option>
+                    <option>Capacitaciones</option>
+                    <option>Otros</option>
+                </select>
+                <textarea name="areadetexto" id="" cols="30" rows="5" placeholder="escribe tu consulta" required></textarea> <br>
+                <input class="btnEnviarContacto" type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <a href="https://tinyurl.com/carlalondero" target="_blank" class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </footer>
+</body>
+</html>
