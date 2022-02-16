@@ -25,10 +25,10 @@ a{
 
 
 @media only screen and (max-width: 528px) {
-    .container,  .container2, .container3, .container4, .container5{
+    /* .container,  .container2, .container3, .container4, .container5{
 width: 400vh;
 height: 100%;
-    }
+    } */
 .hero nav{
     display: none;
     visibility: hidden;
@@ -94,38 +94,41 @@ section.hero{
     height: 100%;
 }
 
-.header { grid-area: header;
-    background-color: #f8ddf8;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0 4rem;
-position: sticky;
-top: 0px;}
-
-.navPrincipal a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-}
-
-.navPrincipal a:hover{
-    color:rgb(107, 106, 106)
-}
-.navPrincipal li{
-    list-style: none;
-    margin: 0.2rem;
-    padding: 0.5rem;
-}
-.navPrincipal ul{
+.header {    grid-area: header;
+    background-color: rgb(240, 239, 240);
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    position: sticky;
+    top: 0px;
+    z-index: 100;}
+
+.navbar-dark a{
+    text-decoration: none!important;
+    color: black!important;
+    font-size: 1.5rem!important;
 }
 
-.navPrincipal li:hover{
-    background-color: rgb(223, 222, 222);
+.navbar-dark a:hover{
+    color:rgb(107, 106, 106)!important;
+}
+.navbar-dark li{
+    list-style: none!important;
+    margin: 0.2rem!important;
+    padding: 0.5rem!important;
 }
 
+.navbar-dark li:hover{
+    background-color: rgb(189, 185, 185)!important;
+}
+.navbar-dark{
+    background-color:rgb(240, 239, 240)!important;
+}
+.navbar-toggler {
+    background-color: #9ea59e;
+}
 /*Barra de navegacion principal*/
 
 /* icono con fontawesome */
@@ -237,23 +240,23 @@ a.instagram:hover , a.linkedin:hover {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    display: inline-block;
+    display: inline-block!important;
     margin: 30px;
     padding: 10px;
 }
 .iconoServicio1 i, .iconoServicio2 i, .iconoServicio3 i, .iconoServicio4 i, .iconoServicio5 i{
     color:#fff;
     font-size: 4rem;
-    line-height:100px;
+    line-height:100px!important;
     text-shadow: 0 0 40px #000;
 }
 
 .iconoServicio1 span, .iconoServicio2 span, .iconoServicio3 span, .iconoServicio4 span, .iconoServicio5 span {
     color:#000;
     text-transform:none;
-    margin-top: 20px;
+    margin-top: 20px!important;
     position: relative;
-    top: 10px;
+    top: 10px!important;
 }
 .servicios{
     display: flex;
