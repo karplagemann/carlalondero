@@ -181,15 +181,9 @@ a.instagram:hover , a.linkedin:hover {
 
 /*hero*/
 
-.hero { grid-area: hero;
-    background-image: url(../images/slide1.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero {
+    grid-area: hero;
+    width: 100%;
 }
 
 .hero h1{
