@@ -1,0 +1,44 @@
+/* servicios.html*/
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 400px  100px;
+    gap: 0 0 ;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header header"
+    "servicio servicio"
+    "footer footer";
+    width: 100%;
+    height: 100%;
+}
+.ContenedorServicios {
+    grid-area: servicio;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.serviciosPag{
+padding: 2rem;
+    h2{
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+.imagenServicios {
+    grid-area: servicio;
+    padding: 1rem;
+    display: flex;
+}
+
+.jumbotron {
+    width: 100%;
+    margin: 4rem;
+}
+/*Fin servicios.html*/
