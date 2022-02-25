@@ -29,8 +29,6 @@ padding: 2rem;
     }
 }
 
-
-
 .imagenServicios {
     grid-area: servicio;
     padding: 1rem;
@@ -40,5 +38,19 @@ padding: 2rem;
 .jumbotron {
     width: 100%;
     margin: 4rem;
+}
+.probandoSass {
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 2px black solid;
+}
+
+.texto{
+    color:aqua;
+    text-transform: uppercase;
+    text-shadow: 1px black;
+    font-weight: 900;
 }
 /*Fin servicios.html*/
