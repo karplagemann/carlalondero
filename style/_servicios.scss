@@ -45,6 +45,7 @@ padding: 2rem;
     height: 400px;
     text-align: center;
     border: 2px black solid;
+    @extend .texto;
 }
 
 .texto{

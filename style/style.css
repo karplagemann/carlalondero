@@ -275,7 +275,7 @@ label[for="email"] {
   border: 2px black solid;
 }
 
-.texto {
+.texto, .probandoSass {
   color: aqua;
   text-transform: uppercase;
   text-shadow: 1px black;
