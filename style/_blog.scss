@@ -50,4 +50,29 @@ text-align: left;
     margin-right: 3%;
 }
 
+//mixins - inicio
+
+// .art1 {
+//     background-color: $green;
+//     font-size: $large;
+//     color: #fff;
+//     text-align: center;
+// }
+
+@mixin caracteristicas ($width, $height, $bcolor) {
+    width: $width;
+    height: $height;
+    background-color: $bcolor;
+}
+
+.art1 {
+    @include caracteristicas (600px, 300px, rgb(243, 243, 243));
+}
+
+.art2 {
+    @include caracteristicas (400px, 500px, rgb(212, 212, 212));
+}
+
+//mixins - fin
+
 /* fin blog.html*/
