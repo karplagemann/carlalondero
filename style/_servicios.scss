@@ -25,24 +25,14 @@ $color1:#0e750e;
 .serviciosPag{
 padding: 2rem;
     h2{
-        margin-bottom: 3rem;
+        padding-top: 2rem;
     }
 }
 
-.imagenServicios {
-    padding: 1rem;
-}
-
-.jumbotron {
-    width: 100%;
-    margin: 2rem;
-}
-
 .texto{
-    color:$color1;
-    text-transform: uppercase;
+    color:black;
     text-shadow: 1px black;
-    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 .serviciosDestacados {
@@ -50,7 +40,10 @@ padding: 2rem;
     width: 100%;
     h2{
         color:$color1;
-        padding-left: 2rem;
+        padding-top:1rem;
+        font-weight: 900;
+        font-size: 2rem;
+        text-transform: uppercase;
     }
 }
 //maps - incio
@@ -72,7 +65,7 @@ $servicios: (
         width: 100%;
         margin: 2rem;
         text-align: center;
-        line-height: 200px;
+        // line-height: 200px;
     }
 }
 

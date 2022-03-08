@@ -28,8 +28,6 @@ margin-top: 10rem;
         justify-content: center;
         flex-wrap: wrap;
         margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 }
 
@@ -41,23 +39,20 @@ text-align: left;
     h2{
         color:#25ba25;
         padding-bottom: 10px;
+        padding-top:20px;
+    }
+    p{
+        padding: 10px;
     }
 }
 
 
 .videoNota{
-    width: 37%;
-    margin-right: 3%;
+    width: 40%;
+    padding: 10px;
 }
 
 //mixins - inicio
-
-// .art1 {
-//     background-color: $green;
-//     font-size: $large;
-//     color: #fff;
-//     text-align: center;
-// }
 
 @mixin caracteristicas ($width, $height, $bcolor) {
     width: $width;
