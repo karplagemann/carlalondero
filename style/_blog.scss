@@ -61,7 +61,7 @@ text-align: left;
 }
 
 .art1 {
-    @include caracteristicas (600px, 300px, rgb(243, 243, 243));
+    @include caracteristicas (auto, auto, rgb(243, 243, 243));
 }
 
 .art2 {

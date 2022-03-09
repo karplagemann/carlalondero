@@ -39,20 +39,23 @@ padding: 2rem;
     grid-area: serviciodestactado;
     width: 100%;
     h2{
-        color:$color1;
+        color:black;
         padding-top:1rem;
         font-weight: 900;
         font-size: 2rem;
         text-transform: uppercase;
+        padding-bottom: 2rem;
     }
 }
 //maps - incio
 
 $servicios: (
     /*Declaramos nuestro mapa*/
-    s1: beige,
-    s2: rgb(209, 209, 188),
-    s3: rgb(177, 177, 160),
+    s1: #0E750E,
+    s2: #62E645,
+    s3: #95FC58,
+    s4:#9DE645,
+    s5:#CEFE4C,
     );
 
 /*Creamos el bucle para usar los valores del mapa*/
@@ -60,12 +63,16 @@ $servicios: (
     .servicios--#{$primervalor} {
         grid-area: servicio;
         @extend .texto;
-        background-color: $segundovalor;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid $segundovalor;
+        border-radius: 20px;
         height: 200px;
         width: 100%;
         margin: 2rem;
         text-align: center;
-        // line-height: 200px;
+        padding: 2rem;
+        background-color: #f0eff0;
     }
 }
 
