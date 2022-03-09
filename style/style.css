@@ -395,7 +395,7 @@ a {
     height: 100%;
   }
   .serviciosPag {
-    margin-top: 30rem;
+    padding-bottom: 20rem;
   }
   #blogContenido {
     padding-top: 20rem;
@@ -624,7 +624,7 @@ footer .whatsapp:hover {
   height: 100px;
   width: 100px;
   display: inline-block !important;
-  margin: 30px;
+  margin: 5rem;
 }
 
 .iconoServicio1 i, .iconoServicio2 i, .iconoServicio3 i, .iconoServicio4 i, .iconoServicio5 i {
