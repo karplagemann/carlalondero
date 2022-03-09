@@ -347,11 +347,7 @@ a {
 
 /*Fin Enlaces*/
 /*index.html*/
-@media only screen and (max-width: 528px) {
-  .hero nav {
-    display: none;
-    visibility: hidden;
-  }
+@media only screen and (max-width: 373px) {
   header {
     -ms-grid-row: 1;
     -ms-grid-column: 1;

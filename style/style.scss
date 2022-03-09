@@ -28,11 +28,8 @@ a{
 /*index.html*/
 
 
-@media only screen and (max-width: 528px) {
-    .hero nav{
-        display: none;
-        visibility: hidden;
-    }
+@media only screen and (max-width: 373px) {
+
     header{
         grid-area: header;
         background-color: rgb(218, 216, 218);
