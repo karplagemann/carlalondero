@@ -286,13 +286,14 @@ label[for="email"] {
           flex-direction: column;
   border: 3px solid #0E750E;
   border-radius: 20px;
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 2rem;
   text-align: center;
-  padding: 2rem;
   background-color: #f0eff0;
   padding-bottom: 20rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .servicios--s2 {
@@ -309,13 +310,14 @@ label[for="email"] {
           flex-direction: column;
   border: 3px solid #62E645;
   border-radius: 20px;
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 2rem;
   text-align: center;
-  padding: 2rem;
   background-color: #f0eff0;
   padding-bottom: 20rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .servicios--s3 {
@@ -332,13 +334,14 @@ label[for="email"] {
           flex-direction: column;
   border: 3px solid #95FC58;
   border-radius: 20px;
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 2rem;
   text-align: center;
-  padding: 2rem;
   background-color: #f0eff0;
   padding-bottom: 20rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .servicios--s4 {
@@ -355,13 +358,14 @@ label[for="email"] {
           flex-direction: column;
   border: 3px solid #9DE645;
   border-radius: 20px;
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 2rem;
   text-align: center;
-  padding: 2rem;
   background-color: #f0eff0;
   padding-bottom: 20rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .servicios--s5 {
@@ -378,13 +382,14 @@ label[for="email"] {
           flex-direction: column;
   border: 3px solid #CEFE4C;
   border-radius: 20px;
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 2rem;
   text-align: center;
-  padding: 2rem;
   background-color: #f0eff0;
   padding-bottom: 20rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 /*Fin servicios.html*/

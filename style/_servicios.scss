@@ -68,13 +68,14 @@ $servicios: (
         flex-direction: column;
         border: 3px solid $segundovalor;
         border-radius: 20px;
-        height: 200px;
+        height: auto;
         width: 100%;
-        margin: 2rem;
         text-align: center;
-        padding: 2rem;
         background-color: #f0eff0;
         padding-bottom: 20rem;
+        margin:0 auto;
+        margin-bottom: 2rem;
+        padding:1rem;
     }
 }
 
