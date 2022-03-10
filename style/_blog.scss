@@ -17,9 +17,7 @@ $color1:#0e750e;
 grid-area: blog;
 display: flex;
 flex-direction: column;
-justify-content: center;
-font-size: 1.5rem;
-margin-top: 10rem;
+
     article{
         font-size: 1.5rem;
         text-align: center;
@@ -28,9 +26,10 @@ margin-top: 10rem;
         justify-content: center;
         flex-wrap: wrap;
         margin: auto;
+        border: 2px solid #0e750e;
+        border-radius: 20px;
     }
 }
-
 
 
 .infoNota {
@@ -39,7 +38,7 @@ text-align: left;
     h2{
         color:#25ba25;
         padding-bottom: 10px;
-        padding-top:20px;
+        padding-top:10px;
     }
     p{
         padding: 10px;
@@ -54,19 +53,19 @@ text-align: left;
 
 //mixins - inicio
 
-@mixin caracteristicas ($width, $height, $bcolor) {
-    width: $width;
-    height: $height;
-    background-color: $bcolor;
-}
+// @mixin caracteristicas ($width, $height, $bcolor) {
+//     width: $width;
+//     height: $height;
+//     background-color: $bcolor;
+// }
 
-.art1 {
-    @include caracteristicas (auto, auto, rgb(243, 243, 243));
-}
+// .art1 {
+//     @include caracteristicas (auto, auto, rgb(243, 243, 243));
+// }
 
-.art2 {
-    @include caracteristicas (400px, 500px, rgb(212, 212, 212));
-}
+// .art2 {
+//     @include caracteristicas (400px, 500px, rgb(212, 212, 212));
+// }
 
 //mixins - fin
 
