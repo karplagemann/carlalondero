@@ -259,6 +259,7 @@ label[for="email"] {
   -ms-grid-column: 1;
   grid-area: serviciodestactado;
   width: 100%;
+  height: auto;
 }
 
 .serviciosDestacados h2 {
@@ -291,6 +292,7 @@ label[for="email"] {
   text-align: center;
   padding: 2rem;
   background-color: #f0eff0;
+  padding-bottom: 20rem;
 }
 
 .servicios--s2 {
@@ -313,6 +315,7 @@ label[for="email"] {
   text-align: center;
   padding: 2rem;
   background-color: #f0eff0;
+  padding-bottom: 20rem;
 }
 
 .servicios--s3 {
@@ -335,6 +338,7 @@ label[for="email"] {
   text-align: center;
   padding: 2rem;
   background-color: #f0eff0;
+  padding-bottom: 20rem;
 }
 
 .servicios--s4 {
@@ -357,6 +361,7 @@ label[for="email"] {
   text-align: center;
   padding: 2rem;
   background-color: #f0eff0;
+  padding-bottom: 20rem;
 }
 
 .servicios--s5 {
@@ -379,6 +384,7 @@ label[for="email"] {
   text-align: center;
   padding: 2rem;
   background-color: #f0eff0;
+  padding-bottom: 20rem;
 }
 
 /*Fin servicios.html*/

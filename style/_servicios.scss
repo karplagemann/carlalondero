@@ -38,6 +38,7 @@ padding: 2rem;
 .serviciosDestacados {
     grid-area: serviciodestactado;
     width: 100%;
+    height: auto;
     h2{
         color:black;
         padding-top:1rem;
@@ -73,6 +74,7 @@ $servicios: (
         text-align: center;
         padding: 2rem;
         background-color: #f0eff0;
+        padding-bottom: 20rem;
     }
 }
 
