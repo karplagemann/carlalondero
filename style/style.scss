@@ -32,7 +32,7 @@ a{
 
     header{
         grid-area: header;
-        background-color: rgb(218, 216, 218);
+        // background-color: rgb(218, 216, 218);
         display: flex;
         flex-direction: column!important;
         justify-content:center;
@@ -60,10 +60,6 @@ a{
     #blogContenido{
         padding-top: 20rem;
     }
-    section.hero{
-        margin: 0;
-        display: none;
-    }
     .servicios__inicio{
         margin-top: -230px;
     }
@@ -74,23 +70,11 @@ a{
     #pagContacto{
         padding-top: 20rem;
     }
-
-
+    #section2{
+        margin-top: 50px!important;
+    }
 }
 
-// .navbar-toggler {
-//     margin-top:50px!important;
-//     position: sticky;
-//     right: 0px;
-//     top: 100px;
-// }
-// .navbar-collapse {
-//     // position:sticky;
-//     // right: 150px;
-//     // top: 200px;
-//     background-color: #f0eff0;
-
-// }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -279,6 +263,7 @@ margin: 5rem;
                 width:100px;
                 transform:scale(1.05);
                 transition: all 0,7s;
+                text-decoration: none;
             }
     }
     span{
