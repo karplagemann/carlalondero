@@ -28,7 +28,7 @@ a{
 /*index.html*/
 
 
-@media only screen and (max-width: 373px) {
+@media only screen and (max-width: 376px) {
 
     header{
         grid-area: header;
@@ -75,23 +75,22 @@ a{
         padding-top: 20rem;
     }
 
-}
-
-.navbar-toggler {
-    margin-top:50px!important;
-    position: fixed;
-    right: 40px;
-    top: 20px;
-}
-.navbar-collapse {
-    position: fixed;
-    right: 90px;
-    top: 80px;
-    background-color: #d9dfd9;
-    padding: 20px;
-    border: solid #9ea59e 2px;
 
 }
+
+// .navbar-toggler {
+//     margin-top:50px!important;
+//     position: sticky;
+//     right: 0px;
+//     top: 100px;
+// }
+// .navbar-collapse {
+//     // position:sticky;
+//     // right: 150px;
+//     // top: 200px;
+//     background-color: #f0eff0;
+
+// }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,8 +124,10 @@ background-color:rgb(240, 239, 240)!important;
     text-decoration: none!important;
     color: black!important;
     font-size: 1.5rem!important;
+    
         &:hover{
             color:rgb(107, 106, 106)!important;
+
         }
     }
     li{
@@ -142,6 +143,8 @@ background-color:rgb(240, 239, 240)!important;
 .navbar-toggler {
     background-color: #9ea59e;
 }
+
+
 /*Barra de navegacion principal*/
 
 /* icono con fontawesome */
@@ -292,6 +295,7 @@ margin: 5rem;
     justify-content: center;
     flex-wrap: wrap;
     z-index: 100;
+    margin-bottom: 100px;
 }
 
 /*Fin section2*/

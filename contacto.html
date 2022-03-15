@@ -19,38 +19,42 @@
 </head>
 <body>
     <main class="container5">
-        <header class="header">
-            <figure>
+      <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+          <div class="container">
+            <a href="#" class="navbar-brand">
+              <figure>
                 <a active href="index.html"><img src="images/logo.png" alt="logo"></a>
             </figure>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="acercade.html">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                      </li>
-                  </ul>
-                </div>
-            </nav>
-        </header>
-    <div id="pagContacto">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+            aria-label="Desplegar menú de navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- <div id="pagContacto">
         <h1>Contacto</h1>
         <form action="#" method="post" enctype="application/x-www-form-urlencoded" class="formContacto">
             <fieldset>
@@ -74,7 +78,52 @@
                 <input class="btnEnviarContacto" type="submit" value="Enviar">
             </fieldset>
         </form>
-    </div>
+    </div> -->
+    <main class="container p-5">
+      <div class="container text-center text-success">
+        <h1>ESTAMOS PARA RESPONDERTE</h1>
+        <h2 class="p-3">
+          Escribinos y consultanos cualquier duda que tengas. <br />
+          Te estamos esperando.
+        </h2>
+      </div>
+      <div class="container p-5 bg-light rounded border border-success">
+        <form class="row g-3" action="https://formsubmit.co/diego.data.icloud@gmail.com" method="POST">
+          <div class="col">
+            <label for="inputNombre" class="form-label">Nombre (*)</label>
+            <input type="text" name="nombre" class="form-control" placeholder="Tu nombre..." aria-label="Nombre">
+          </div>
+          <div class="col">
+            <label for="inputApellido" class="form-label">Apellido (*)</label>
+            <input type="text" name="apellido" class="form-control" placeholder="Tu apellido..." aria-label="Apellido">
+          </div>
+          <div class="col-12">
+            <label for="inputAsunto" class="form-label">Asunto (*)</label>
+            <select id="inputAsunto" name="asunto" class="form-select">
+              <option selected>Seleccionar tu opcion...</option>
+              <option>Solicitud de Turno - Indicame que Servicio necesitas</option>
+              <option>Modificacion de Turno</option>
+              <option>Cancelacion de Turno</option>
+              <option>Necesito la Factura</option>
+              <option>Solo consultar...</option>
+            </select>
+          </div>      
+          <div class="form-floating">
+            <textarea class="form-control" name="comentario" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comentarios...</label>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Deseo recibir "Novedades" <br> (*) Campos obligatorios
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-success" id="input-boton">Enviar</button>
+          </div>
+        </form>
     <footer>
         <a href="https://tinyurl.com/carlalondero" target="_blank" class="whatsapp">
             <i class="fab fa-whatsapp"></i>
