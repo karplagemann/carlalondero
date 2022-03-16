@@ -31,17 +31,16 @@ flex-direction: column;
     }
 }
 
-
-.infoNota {
-width: 60%;
-text-align: left;
-    h2{
-        color:#25ba25;
-        padding-bottom: 10px;
-        padding-top:10px;
-    }
-    p{
-        padding: 10px;
+div{
+    .infoNota {
+    text-align: center;
+        h2{
+            color:#25ba25;
+            padding: 1rem;
+        }
+        p{
+            padding: 1rem;
+        }
     }
 }
 
@@ -49,24 +48,16 @@ text-align: left;
 .videoNota{
     width: 100%;
     padding: 10px;
+    height: 100%;
 }
 
-//mixins - inicio
-
-// @mixin caracteristicas ($width, $height, $bcolor) {
-//     width: $width;
-//     height: $height;
-//     background-color: $bcolor;
-// }
-
-// .art1 {
-//     @include caracteristicas (auto, auto, rgb(243, 243, 243));
-// }
-
-// .art2 {
-//     @include caracteristicas (400px, 500px, rgb(212, 212, 212));
-// }
-
-//mixins - fin
+div {
+        .fecha{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 4px;
+        }
+}
 
 /* fin blog.html*/

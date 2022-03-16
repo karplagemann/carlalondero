@@ -96,24 +96,30 @@
   border-radius: 20px;
 }
 
-.infoNota {
-  width: 60%;
-  text-align: left;
+div .infoNota {
+  text-align: center;
 }
 
-.infoNota h2 {
+div .infoNota h2 {
   color: #25ba25;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 1rem;
 }
 
-.infoNota p {
-  padding: 10px;
+div .infoNota p {
+  padding: 1rem;
 }
 
 .videoNota {
   width: 100%;
   padding: 10px;
+  height: 100%;
+}
+
+div .fecha {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 4px;
 }
 
 /* fin blog.html*/
@@ -458,9 +464,6 @@ a {
   }
   .serviciosPag {
     padding-bottom: 20rem;
-  }
-  #blogContenido {
-    padding-top: 20rem;
   }
   .servicios__inicio {
     margin-top: -230px;
