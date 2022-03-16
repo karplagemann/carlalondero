@@ -164,7 +164,7 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 30px;
-  width: 50%;
+  width: 80%;
   text-align: center;
   border: lightgray solid 1px;
 }
@@ -174,7 +174,7 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 30px;
-  width: 30%;
+  width: 80%;
   text-align: center;
   border: lightgray solid 1px;
 }
@@ -184,7 +184,7 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 200px;
-  width: 60%;
+  width: 80%;
   text-align: center;
   border: lightgray solid 1px;
   padding: 10px;
@@ -471,9 +471,6 @@ a {
   #section3 {
     margin: 0;
     display: none;
-  }
-  #pagContacto {
-    padding-top: 20rem;
   }
   #section2 {
     margin-top: 50px !important;
