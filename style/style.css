@@ -522,6 +522,7 @@ a {
 
 .navbar-dark {
   background-color: #f0eff0 !important;
+  z-index: 100 !important;
 }
 
 .navbar-dark a {
@@ -586,7 +587,7 @@ footer .whatsapp:hover {
   background-color: #adb8ad;
   border: 2px sold #FAFAFA;
   position: fixed;
-  left: 20px;
+  right: 20px;
   top: 220px;
   border-radius: 50%;
   text-align: center;
@@ -610,7 +611,7 @@ footer .whatsapp:hover {
   background-color: #adb8ad;
   border: 2px sold #FAFAFA;
   position: fixed;
-  left: 20px;
+  right: 20px;
   top: 280px;
   border-radius: 50%;
   text-align: center;
