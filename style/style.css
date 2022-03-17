@@ -5,8 +5,8 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 150px 500px 100px;
-      grid-template-rows: 150px 500px 100px;
+  -ms-grid-rows: 150px 900px 100px;
+      grid-template-rows: 150px 900px 100px;
   gap: 0 0;
   grid-auto-flow: row;
       grid-template-areas: "header header" "info info" "footer footer";
@@ -129,8 +129,8 @@ div .fecha {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 400px  100px;
-      grid-template-rows: 150px 400px  100px;
+  -ms-grid-rows: 150px 600px  100px;
+      grid-template-rows: 150px 600px  100px;
   gap: 0 0;
   grid-auto-flow: row;
       grid-template-areas: "header header" "contacto contacto" "footer footer";
@@ -155,8 +155,9 @@ div .fecha {
           justify-content: center;
   font-size: 1.5rem;
   margin: 2rem;
-  margin-top: 9rem;
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .inputContacto {
@@ -164,8 +165,8 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 30px;
-  width: 80%;
-  text-align: center;
+  width: 100%;
+  padding-left: 12px;
   border: lightgray solid 1px;
 }
 
@@ -174,7 +175,7 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 30px;
-  width: 80%;
+  width: 100%;
   text-align: center;
   border: lightgray solid 1px;
 }
@@ -184,14 +185,24 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 200px;
-  width: 80%;
+  width: 100%;
   text-align: center;
   border: lightgray solid 1px;
   padding: 10px;
+  font-size: 1.5rem;
 }
 
 .formContacto fieldset {
   padding: 20px;
+}
+
+.formContacto label {
+  float: left;
+}
+
+.formContacto .centradok {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .btnEnviarContacto {
@@ -201,13 +212,9 @@ div .fecha {
   margin: auto;
   margin-bottom: 10px;
   height: 30px;
-  width: 50%;
+  width: 100%;
   text-align: center;
   border: lightgray solid 1px;
-}
-
-label[for="email"] {
-  margin-left: 16px;
 }
 
 /* fin contacto.html*/
@@ -217,8 +224,8 @@ label[for="email"] {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 400px 750px 100px;
-      grid-template-rows: 150px 400px 750px 100px;
+  -ms-grid-rows: 150px 400px 900px 100px;
+      grid-template-rows: 150px 400px 900px 100px;
   gap: 0 0;
   grid-auto-flow: row;
       grid-template-areas: "header header" "servicio servicio" "serviciodestactado serviciodestacado" "footer footer";
@@ -479,8 +486,8 @@ a {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 300px 250px 100px;
-      grid-template-rows: 150px 300px 250px 100px;
+  -ms-grid-rows: 150px 300px 350px 100px;
+      grid-template-rows: 150px 300px 350px 100px;
   gap: 0 0;
   grid-auto-flow: row;
       grid-template-areas: "header  header" "hero hero" "servicios servicios" "footer footer";
@@ -550,6 +557,19 @@ footer {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: footer;
+  background-color: #f0eff0 !important;
+  position: fixed;
+  right: 0px;
+  bottom: -28px;
+  width: 100%;
+  height: 100px;
+  line-height: 50px;
+  margin-top: 100px !important;
+}
+
+footer .tfooter {
+  color: #000;
+  font-size: 1.5rem;
 }
 
 footer .whatsapp {
@@ -727,6 +747,7 @@ footer .whatsapp:hover {
       flex-wrap: wrap;
   z-index: 100;
   margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 /*Fin section2*/

@@ -70,7 +70,7 @@ a{
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 300px 250px 100px;
+    grid-template-rows: 150px 300px 350px 100px;
     gap: 0 0 ;
     grid-auto-flow: row;
     grid-template-areas:
@@ -127,6 +127,18 @@ z-index: 100!important;
 /* icono con fontawesome */
 footer{
 grid-area: footer;
+background-color: #f0eff0 !important;
+position: fixed;
+right: 0px;
+bottom: -28px;
+width: 100%;
+height: 100px;
+line-height: 50px;
+margin-top: 100px !important;
+    .tfooter{
+        color: #000;
+        font-size: 1.5rem;
+    }
     .whatsapp {
         height: 50px;
         width: 50px;
@@ -274,6 +286,7 @@ margin: 5rem;
     flex-wrap: wrap;
     z-index: 100;
     margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 /*Fin section2*/

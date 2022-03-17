@@ -56,31 +56,34 @@
       </header>
     <div id="pagContacto">
         <h1>Contacto</h1>
+        <p>Completa el formulario, te respondere a la brevedad</p>
         <form action="#" method="post" enctype="application/x-www-form-urlencoded" class="formContacto">
           <fieldset>
-            <div class="mb-3">
-              <label for="nombre">Nombre</label>
+            <label for="nombre">Nombre</label>
+            <div class="centradok">
               <input class="inputContacto" name="nombre" type="text" placeholder="escribe tu nombre" required><br>
             </div>
-            <div class="mb-3">
-              <label for="telefono">Telefono</label>
+            <label for="telefono">Telefono</label>
+            <div class="centradok">
               <input class="inputContacto" name="telefono" type="tel" placeholder="Ej 03541 15520474" required><br>
             </div>
-            <div class="mb-3">
-              <label for="email">Email</label>
+            <label for="email">Email</label>
+            <div class="centradok">
                 <input class="inputContacto" name="email" type="email" placeholder="escribe tu email" required><br>
             </div>
-            <label for="servios">Motivo de consulta</label>
-            <select class="form-select" name="servicios" aria-label="Default select example">
-              <option selected>Seleccionar</option>
-              <option  value="1">Gestión Administrativa</option>
-              <option value="2">Gestión Comercial</option>
-              <option value="3">Auditorias de cuentas</option>
-              <option value="4">Proyectos y presupuestos de inversón</option>
-              <option value="5">Capacitaciones</option>
-              <option value="6">Otros</option>
-            </select>
-            <div class="mb-3">
+            <div class="centradok">
+              <!-- <label for="servicios">Motivo de consulta</label> -->
+              <select class="form-select" name="servicios" aria-label="Default select example">
+                <option selected>Motivo de  consulta</option>
+                <option  value="1">Gestión Administrativa</option>
+                <option value="2">Gestión Comercial</option>
+                <option value="3">Auditorias de cuentas</option>
+                <option value="4">Proyectos y presupuestos de inversón</option>
+                <option value="5">Capacitaciones</option>
+                <option value="6">Otros</option>
+              </select>
+            </div>
+            <div class="centradok">
               <textarea class="form-control" name="areadetexto" id="" cols="30" rows="3" placeholder="escribe tu consulta" required></textarea>
               <button type="submit" class="btnEnviarContacto btn btn-primary mb-2" value="Enviar">Enviar</button>
             </div>
@@ -88,10 +91,11 @@
       </form>
     </div>
 
-    <footer>
-        <a href="https://tinyurl.com/carlalondero" target="_blank" class="whatsapp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
+    <footer class="py-3 my-4">
+      <a href="https://tinyurl.com/carlalondero" target="_blank" class="whatsapp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <p class="text-center text-muted tfooter">&copy; Desarrollado por K.Plagemann</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
