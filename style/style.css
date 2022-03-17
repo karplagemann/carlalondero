@@ -5,19 +5,19 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 150px 900px 100px;
-      grid-template-rows: 150px 900px 100px;
+  -ms-grid-rows: 120px auto 100px;
+      grid-template-rows: 120px auto 100px;
   gap: 0 0;
   grid-auto-flow: row;
-      grid-template-areas: "header header" "info info" "footer footer";
-  width: 100%;
+      grid-template-areas: "header" "info" "footer";
+  width: 85%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .acercaDeContenedor {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: info;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,11 +35,11 @@
 }
 
 .acercaDeContenedor iframe {
-  margin-bottom: 1rem;
   width: 100%;
-  height: auto;
+  height: 450px;
   margin: 0 auto;
   float: right;
+  padding-top: 13px;
 }
 
 .titulo {
@@ -54,21 +54,21 @@
 .container4 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 400px  100px;
-      grid-template-rows: 150px 400px  100px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 150px auto  100px;
+      grid-template-rows: 150px auto  100px;
   gap: 0 0;
   grid-auto-flow: row;
-      grid-template-areas: "header header" "blog blog" "footer footer";
-  width: 100%;
+      grid-template-areas: "header" "blog" "footer";
+  width: 85%;
   height: 100%;
+  margin: 0 auto;
 }
 
 #blogContenido {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: blog;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,21 +127,21 @@ div .fecha {
 .container5 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 600px  100px;
-      grid-template-rows: 150px 600px  100px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 150px auto  100px;
+      grid-template-rows: 150px auto  100px;
   gap: 0 0;
   grid-auto-flow: row;
-      grid-template-areas: "header header" "contacto contacto" "footer footer";
-  width: 100%;
+      grid-template-areas: "header" "contacto" "footer";
+  width: 85%;
   height: 100%;
+  margin: 0 auto;
 }
 
 #pagContacto {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: contacto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,21 +222,21 @@ div .fecha {
 .container3 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 400px 900px 100px;
-      grid-template-rows: 150px 400px 900px 100px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 108px auto 100px;
+      grid-template-rows: 108px auto 100px;
   gap: 0 0;
   grid-auto-flow: row;
-      grid-template-areas: "header header" "servicio servicio" "serviciodestactado serviciodestacado" "footer footer";
-  width: 100%;
+      grid-template-areas: "header" "servicio" "footer";
+  width: 85%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .ContenedorServicios {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: servicio;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -266,7 +266,8 @@ div .fecha {
 .serviciosDestacados {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
-  grid-area: serviciodestactado;
+  -ms-grid-column-span: 2;
+  grid-area: servicios;
   width: 100%;
   height: auto;
 }
@@ -284,7 +285,6 @@ div .fecha {
 .servicios--s1 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: servicio;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,7 +308,6 @@ div .fecha {
 .servicios--s2 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: servicio;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,7 +331,6 @@ div .fecha {
 .servicios--s3 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: servicio;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,7 +354,6 @@ div .fecha {
 .servicios--s4 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: servicio;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -380,7 +377,6 @@ div .fecha {
 .servicios--s5 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: servicio;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -486,8 +482,8 @@ a {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 150px 300px 350px 100px;
-      grid-template-rows: 150px 300px 350px 100px;
+  -ms-grid-rows: 150px 300px auto 100px;
+      grid-template-rows: 150px 300px auto 100px;
   gap: 0 0;
   grid-auto-flow: row;
       grid-template-areas: "header  header" "hero hero" "servicios servicios" "footer footer";
@@ -579,7 +575,7 @@ footer .whatsapp {
   border: 2px sold #FAFAFA;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 96px;
   border-radius: 50%;
   text-align: center;
 }
@@ -746,7 +742,6 @@ footer .whatsapp:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   z-index: 100;
-  margin-bottom: 100px;
   padding-bottom: 100px;
 }
 

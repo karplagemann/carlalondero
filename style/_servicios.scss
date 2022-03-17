@@ -2,17 +2,17 @@
 $color1:#0e750e;
 .container3 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 400px 900px 100px;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 108px auto 100px;
     gap: 0 0 ;
     grid-auto-flow: row;
     grid-template-areas:
-    "header header"
-    "servicio servicio"
-    "serviciodestactado serviciodestacado"
-    "footer footer";
-    width: 100%;
+    "header"
+    "servicio"
+    "footer";
+    width: 85%;
     height: 100%;
+    margin: 0 auto;
 }
 .ContenedorServicios {
     grid-area: servicio;
@@ -36,7 +36,7 @@ padding: 2rem;
 }
 
 .serviciosDestacados {
-    grid-area: serviciodestactado;
+    grid-area: servicios;
     width: 100%;
     height: auto;
     h2{

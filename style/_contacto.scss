@@ -2,16 +2,17 @@ $color1:#0e750e;
 /* contacto.html*/
 .container5 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 600px  100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px auto  100px;
     gap: 0 0 ;
     grid-auto-flow: row;
     grid-template-areas:
-    "header header"
-    "contacto contacto"
-    "footer footer";
-    width: 100%;
+    "header"
+    "contacto"
+    "footer";
+    width: 85%;
     height: 100%;
+    margin: 0 auto;
 }
 #pagContacto {
     grid-area: contacto;
